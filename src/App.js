@@ -1,0 +1,17 @@
+import "./styles.css";
+import { useState, useEffect } from "react";
+import { useStateProvider } from "./libs/state";
+
+import Grid from "./components/Grid";
+import Player from "./components/Player";
+export default function App() {
+  const { grid, addValue, winner, icon } = useStateProvider();
+  const gridProps = { grid, addValue };
+  const playerProps = { winner, icon };
+  return (
+    <div>
+      <Grid {...gridProps} />
+      <Player {...playerProps} />
+    </div>
+  );
+}
