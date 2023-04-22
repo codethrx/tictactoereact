@@ -11,6 +11,7 @@ export default function App() {
   return (
     <div>
       <h1>Tic toe tac</h1>
+
       <Grid {...gridProps} />
       <Player {...playerProps} />
     </div>
