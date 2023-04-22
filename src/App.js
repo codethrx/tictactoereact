@@ -10,7 +10,7 @@ export default function App() {
   const playerProps = { winner, icon };
   return (
     <div>
-      <h1>Tic toe tac</h1>
+      <h1>Tic toe tac version 1</h1>
 
       <Grid {...gridProps} />
       <Player {...playerProps} />
