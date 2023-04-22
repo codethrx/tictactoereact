@@ -12,7 +12,7 @@ export default function App() {
   //source
   return (
     <div>
-      <h1>Tic tac toe hola amoras</h1>
+      <h1>Tic toe tac vol-1</h1>
 
       <Grid {...gridProps} />
       <Player {...playerProps} />
